@@ -7,7 +7,8 @@
     </select>
   </div>
 
-  <div class="semana" ng-repeat="reuniao in quadroDeAnuncios.json | filter:quadroDeAnuncios.porMeses" data-toggle="modal" data-target="#editReuniao" ng-click="quadroDeAnuncios.editReuniao(reuniao);">
+  <!-- <div class="semana" ng-repeat="reuniao in quadroDeAnuncios.json | filter:quadroDeAnuncios.porMeses" data-toggle="modal" data-target="#editReuniao" ng-click="quadroDeAnuncios.editReuniao(reuniao);"> -->
+  <div class="semana" ng-repeat="reuniao in quadroDeAnuncios.json | filter:quadroDeAnuncios.porMeses" ng-click="quadroDeAnuncios.editReuniao(reuniao);">
     
     <div class="inicio">
       <h1 class="titulo">Semana de {{reuniao.dia}} de {{reuniao.mes}}</h1>
@@ -123,17 +124,17 @@
               <h2 class="subtitulo">Reunião de Serviço:</h2>
               <p>Cantico: {{quadroDeAnuncios.edicao.reuniao_de_servico.cantico}}</p>
               <!-- <div ng-repeat="parte in quadroDeAnuncios.edicao.reuniao_de_servico.partes"> -->
-                <div>
+                <div ng-if="quadroDeAnuncios.edicao.reuniao_de_servico.partes[0].titulo">
                   <p class="nome-parte"> <span class="bold-text">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[0].titulo}}</span> <span class="notas">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[0].tempo}}</span></p>
                   <p> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.reuniao_de_servico.partes[0].orador"/></p>
                 </div>
 
-                <div>
+                <div ng-if="quadroDeAnuncios.edicao.reuniao_de_servico.partes[1].titulo">
                   <p class="nome-parte"> <span class="bold-text">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[1].titulo}}</span> <span class="notas">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[1].tempo}}</span></p>
                   <p> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.reuniao_de_servico.partes[1].orador"/></p>
                 </div>
 
-                <div>
+                <div ng-if="quadroDeAnuncios.edicao.reuniao_de_servico.partes[2].titulo">
                   <p class="nome-parte"> <span class="bold-text">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[2].titulo}}</span> <span class="notas">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[2].tempo}}</span></p>
                   <p> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.reuniao_de_servico.partes[2].orador"/></p>
                 </div>

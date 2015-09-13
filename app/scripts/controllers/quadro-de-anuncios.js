@@ -32,6 +32,7 @@ angular.module('boardApp')
 	};
 
 	self.editReuniao = function(reuniao){
+	  $window.$('#editReuniao').modal();
 	  self.edicao = reuniao;
 	};
   }]);
