@@ -1,0 +1,163 @@
+<div class="reuniao-de-quinta">
+  <div class="controles">
+    <label>Mês:</label>
+    <select ng-model="quadroDeAnuncios.mesAtivo">
+      <option value="Setembro">Setembro</option>
+      <option value="Outubro">Outubro</option>
+    </select>
+  </div>
+
+  <div class="semana" ng-repeat="reuniao in quadroDeAnuncios.json | filter:quadroDeAnuncios.porMeses" data-toggle="modal" data-target="#editReuniao" ng-click="quadroDeAnuncios.editReuniao(reuniao);">
+    
+    <div class="inicio">
+      <h1 class="titulo">Semana de {{reuniao.dia}} de {{reuniao.mes}}</h1>
+      <p class="cantico-oracao">Cântico {{reuniao.inicio.cantico}} e oração: <span class="italic-text">{{reuniao.inicio.oracao}}</span></p>
+    </div>
+
+    <div class="estudo-biblico">
+      <h2 class="subtitulo">Estudo Bíblico de Congregação:</h2>
+      <p class="italic-text">{{reuniao.estudo_biblico.estudo}}</p>
+      <p class="dirigente"><span class="bold-text">Dirigente:</span> <span class="italic-text">{{reuniao.estudo_biblico.dirigente}}</span></p>
+      <p class="leitor"><span class="bold-text">Leitor:</span> <span class="italic-text">{{reuniao.estudo_biblico.leitor}}</span></p>
+    </div>
+
+    <div class="escola-do-ministerio">
+      <h2 class="subtitulo">Escola do Ministério Teocrático:</h2>
+      <p class="leitura"><span class="bold-text">Destaques: </span> <span class="italic-text">{{reuniao.escola_do_ministerio.leitor}}</span> <span class="notas">({{reuniao.escola_do_ministerio.leitura}})</span></p>
+
+      <div>
+        <h3 class="subtitulo titulo-salas">Sala A</h3>
+        <p class="n1"><span class="bold-text">Nº1:</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_a.n1.aluno}}</span> <span class="notas">({{reuniao.escola_do_ministerio.sala_a.n1.leitura}})</span></p>
+        <p class="n2"><span class="bold-text">Nº2:</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_a.n2.aluno}}</span> <span class="notas">ajudante</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_a.n2.ajudante}} </span></p>
+        <p class="n3"><span class="bold-text">Nº3:</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_a.n3.aluno}}</span> <span class="notas">ajudante</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_a.n3.ajudante}} </span></p>
+      </div>
+
+      <div>
+        <h3 class="subtitulo titulo-salas">Sala B</h3>
+        <p class="n1"><span class="bold-text">Nº1:</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_b.n1.aluno}}</span> <span class="notas">({{reuniao.escola_do_ministerio.sala_b.n1.leitura}})</span></p>
+        <p class="n2"><span class="bold-text">Nº2:</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_b.n2.aluno}}</span> <span class="notas">ajudante</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_b.n2.ajudante}} </span></p>
+        <p class="n3"><span class="bold-text">Nº3:</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_b.n3.aluno}}</span> <span class="notas">ajudante</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_b.n3.ajudante}} </span></p>
+      </div>
+
+    </div>
+
+    <div class="reuniao-de-servico">
+      <h2 class="subtitulo">Reunião de Serviço:</h2>
+      <p>Cantico: {{reuniao.reuniao_de_servico.cantico}}</p>
+      <!-- <div ng-repeat="parte in reuniao.reuniao_de_servico.partes"> -->
+        <div>
+          <p class="nome-parte"> <span class="bold-text">{{reuniao.reuniao_de_servico.partes[0].titulo}}</span> <span class="notas">{{reuniao.reuniao_de_servico.partes[0].tempo}}</span></p>
+          <p> <span class="italic-text">{{reuniao.reuniao_de_servico.partes[0].orador}}</span></p>
+        </div>
+
+        <div>
+          <p class="nome-parte"> <span class="bold-text">{{reuniao.reuniao_de_servico.partes[1].titulo}}</span> <span class="notas">{{reuniao.reuniao_de_servico.partes[1].tempo}}</span></p>
+          <p> <span class="italic-text">{{reuniao.reuniao_de_servico.partes[1].orador}}</span></p>
+        </div>
+
+        <div>
+          <p class="nome-parte"> <span class="bold-text">{{reuniao.reuniao_de_servico.partes[2].titulo}}</span> <span class="notas">{{reuniao.reuniao_de_servico.partes[2].tempo}}</span></p>
+          <p> <span class="italic-text">{{reuniao.reuniao_de_servico.partes[2].orador}}</span></p>
+        </div>
+      <!-- </div> -->
+    </div>
+
+    <div class="fim">
+      <p class="cantico-oracao">Cântico {{reuniao.fim.cantico}} e oração: <span class="italic-text">{{reuniao.fim.oracao}}</span></p>
+    </div>
+
+  </div>
+
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="editReuniao" tabindex="-1" role="dialog" aria-labelledby="editReuniaoLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="editReuniaoLabel">Edição de Reunião</h4>
+        </div>
+        <div class="modal-body">
+
+
+
+
+
+          <div class="semana semana-edicao">
+            
+            <div class="inicio">
+              <h1 class="titulo">Semana de {{quadroDeAnuncios.edicao.dia}} de {{quadroDeAnuncios.edicao.mes}}</h1>
+              <p class="cantico-oracao">Cântico {{quadroDeAnuncios.edicao.inicio.cantico}} e oração: <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.inicio.oracao"/></p>
+            </div>
+
+            <div class="estudo-biblico">
+              <h2 class="subtitulo">Estudo Bíblico de Congregação:</h2>
+              <p class="italic-text">{{quadroDeAnuncios.edicao.estudo_biblico.estudo}}</p>
+              <p class="dirigente"><span class="bold-text">Dirigente:</span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.estudo_biblico.dirigente"/></p>
+              <p class="leitor"><span class="bold-text">Leitor:</span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.estudo_biblico.leitor"/></p>
+            </div>
+
+            <div class="escola-do-ministerio">
+              <h2 class="subtitulo">Escola do Ministério Teocrático:</h2>
+              <p class="leitura"><span class="bold-text">Destaques: </span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.escola_do_ministerio.leitor"/> <span class="notas">({{quadroDeAnuncios.edicao.escola_do_ministerio.leitura}})</span></p>
+
+              <div>
+                <h3 class="subtitulo titulo-salas">Sala A</h3>
+                <p class="n1"><span class="bold-text">Nº1:</span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.escola_do_ministerio.sala_a.n1.aluno"/> <span class="notas">({{quadroDeAnuncios.edicao.escola_do_ministerio.sala_a.n1.leitura}})</span></p>
+                <p class="n2"><span class="bold-text">Nº2:</span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.escola_do_ministerio.sala_a.n2.aluno"/> <span class="notas">ajudante</span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.escola_do_ministerio.sala_a.n2.ajudante"/></p>
+                <p class="n3"><span class="bold-text">Nº3:</span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.escola_do_ministerio.sala_a.n3.aluno"/> <span class="notas">ajudante</span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.escola_do_ministerio.sala_a.n3.ajudante"/></p>
+              </div>
+
+              <div>
+                <h3 class="subtitulo titulo-salas">Sala B</h3>
+                <p class="n1"><span class="bold-text">Nº1:</span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.escola_do_ministerio.sala_b.n1.aluno"/> <span class="notas">({{quadroDeAnuncios.edicao.escola_do_ministerio.sala_b.n1.leitura}})</span></p>
+                <p class="n2"><span class="bold-text">Nº2:</span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.escola_do_ministerio.sala_b.n2.aluno"/> <span class="notas">ajudante</span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.escola_do_ministerio.sala_b.n2.ajudante"/></p>
+                <p class="n3"><span class="bold-text">Nº3:</span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.escola_do_ministerio.sala_b.n3.aluno"/> <span class="notas">ajudante</span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.escola_do_ministerio.sala_b.n3.ajudante"/></p>
+              </div>
+
+            </div>
+
+            <div class="reuniao-de-servico">
+              <h2 class="subtitulo">Reunião de Serviço:</h2>
+              <p>Cantico: {{quadroDeAnuncios.edicao.reuniao_de_servico.cantico}}</p>
+              <!-- <div ng-repeat="parte in quadroDeAnuncios.edicao.reuniao_de_servico.partes"> -->
+                <div>
+                  <p class="nome-parte"> <span class="bold-text">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[0].titulo}}</span> <span class="notas">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[0].tempo}}</span></p>
+                  <p> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.reuniao_de_servico.partes[0].orador"/></p>
+                </div>
+
+                <div>
+                  <p class="nome-parte"> <span class="bold-text">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[1].titulo}}</span> <span class="notas">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[1].tempo}}</span></p>
+                  <p> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.reuniao_de_servico.partes[1].orador"/></p>
+                </div>
+
+                <div>
+                  <p class="nome-parte"> <span class="bold-text">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[2].titulo}}</span> <span class="notas">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[2].tempo}}</span></p>
+                  <p> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.reuniao_de_servico.partes[2].orador"/></p>
+                </div>
+              <!-- </div> -->
+            </div>
+
+            <div class="fim">
+              <p class="cantico-oracao">Cântico {{quadroDeAnuncios.edicao.fim.cantico}} e oração: <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.fim.oracao"/></p>
+            </div>
+
+          </div>
+
+
+
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+	
+</div>
+
+<!-- <p>{{quadroDeAnuncios.json}}</p> -->

@@ -1,0 +1,194 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+* {
+  outline: none;
+}
+
+@media print {
+  body {
+    padding: 0;
+    font-size: 8px;
+  }
+}
+
+/* Header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .header{
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+}
+
+  .header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+
+
+  
+@media (min-width: 768px){
+  .navbar-collapse{
+    padding: 0;
+  }
+
+  .navbar-default .navbar-nav > li:last-child > a{
+    padding-right: 0;
+  }
+
+  .navbar-nav {
+    float: right;
+  }
+}
+
+/* Font Style */
+.italic-text{
+  font-style: italic;
+}
+
+.bold-text{
+  font-weight: bold;
+}
+
+/* Quadro de Anuncios */
+.reuniao-de-quinta .controles{
+  padding: 20px;
+}
+
+@media print {
+  .reuniao-de-quinta .controles{
+    display: none;
+  }
+}
+
+.reuniao-de-quinta .semana{
+  display: inline-block;
+  *display: inline;
+  *zoom:1;
+  vertical-align: top;
+  width: 50%;
+  border: solid 1px #000;
+  padding-bottom: 2em;
+}
+
+@media screen and (max-width: 1024px) {
+  .reuniao-de-quinta .semana{
+    width: 100%;
+    margin-bottom: 15px;
+  }  
+}
+
+.reuniao-de-quinta .semana.semana-edicao{
+  width: 100%;
+}
+
+  .reuniao-de-quinta .semana:hover{
+    background-color: #EFEFEF;
+    cursor: pointer;
+  }
+
+  .reuniao-de-quinta .semana.semana-edicao:hover{
+    background-color: inherit;
+  }
+
+@media screen and (min-width: 1024px) {
+  .reuniao-de-quinta .semana:nth-child(2){
+    border-right: none;
+    border-bottom: none;
+  }
+  
+  .reuniao-de-quinta .semana:nth-child(3){
+    border-bottom: none;
+  }
+
+  .reuniao-de-quinta .semana:nth-child(4){
+    border-right: none;
+  }
+}
+
+  .reuniao-de-quinta .semana > *{
+    padding: 0 2em;
+  }
+
+  .semana p{
+    margin-bottom: 0.4em;
+  }
+
+  .semana h1{
+    margin-top: 0.8em;
+    margin-bottom: 0.4em;
+  }
+
+  .semana h2{
+    margin-top: 0.8em;
+    margin-bottom: 0.4em;
+  }
+
+  .semana h3{
+    margin-top: 0.8em;
+    margin-bottom: 0.4em;
+  }
+
+  .semana .titulo{
+    font-size: 2em;
+    color: #0088EE;
+    text-align: center;
+  }
+
+  .semana .subtitulo{
+    font-size: 1.6em;
+    color: #000;
+  }
+
+  .semana .titulo-salas{
+    text-align: center;
+    background-color: #9FC5E8;
+    padding: 5px;
+  }
+
+  .semana .notas{
+    font-size: 0.8em;
+    font-style: italic;
+  }
+
+  .semana .nome-parte{
+    margin: 0;
+  }
+
+  .semana .reuniao-de-servico{
+    min-height: 13.5em;
+  }
+
+
+
+
+
+
+
+
+
+
+
