@@ -41,6 +41,12 @@ body {
   }
 }
 
+@media print {
+  .header{
+    border-bottom: none;
+  }
+}
+
   .header h3 {
     margin-top: 0;
     margin-bottom: 0;
