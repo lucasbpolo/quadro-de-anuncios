@@ -1,5 +1,6 @@
 [
   {
+    "semana_especial": true,
     "mes": "Setembro",
     "dia": "7",
     "inicio":{
@@ -12,6 +13,7 @@
       "leitor": "Fernando Santana"
     },
     "escola_do_ministerio":{
+      "recapitulacao": false,
       "leitura": "2 Reis 12-15",
       "leitor": "Haldrin Leite",
       "sala_a":{
@@ -68,7 +70,11 @@
       "oracao": "Dilson Esmi"
     }
   },
+
+
+
   {
+    "semana_especial": false,
     "mes": "Setembro",
     "dia": "7",
     "inicio":{
@@ -81,6 +87,7 @@
       "leitor": "Fernando Santana"
     },
     "escola_do_ministerio":{
+      "recapitulacao": true,
       "leitura": "2 Reis 12-15",
       "leitor": "Haldrin Leite",
       "sala_a":{
@@ -137,7 +144,11 @@
       "oracao": "Dilson Esmi"
     }
   },
+
+
+
   {
+    "semana_especial": false,
     "mes": "Setembro",
     "dia": "7",
     "inicio":{
@@ -150,6 +161,7 @@
       "leitor": "Fernando Santana"
     },
     "escola_do_ministerio":{
+      "recapitulacao": false,
       "leitura": "2 Reis 12-15",
       "leitor": "Haldrin Leite",
       "sala_a":{
@@ -206,7 +218,11 @@
       "oracao": "Dilson Esmi"
     }
   },
+
+
+  
   {
+    "semana_especial": false,
     "mes": "Setembro",
     "dia": "7",
     "inicio":{
@@ -219,6 +235,7 @@
       "leitor": "Fernando Santana"
     },
     "escola_do_ministerio":{
+      "recapitulacao": false,
       "leitura": "2 Reis 12-15",
       "leitor": "Haldrin Leite",
       "sala_a":{

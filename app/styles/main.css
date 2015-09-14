@@ -111,9 +111,16 @@ body {
   width: 100%;
 }
 
-  .reuniao-de-quinta .semana:hover{
+  .reuniao-de-quinta .semana{
+    cursor: default;
+  }
+  .reuniao-de-quinta .semana.normal:hover{
     background-color: #EFEFEF;
     cursor: pointer;
+  }
+
+  .reuniao-de-quinta .semana.recapitulacao{
+    height: 57.7em;
   }
 
   .reuniao-de-quinta .semana.semana-edicao:hover{
@@ -188,6 +195,9 @@ body {
     min-height: 13.5em;
   }
 
+  .semana .semana-especial{
+    height: 54.1em;
+  }
 
 
 

@@ -32,6 +32,9 @@ angular.module('boardApp')
 	};
 
 	self.editReuniao = function(reuniao){
+    if(reuniao.semana_especial){
+      return false;
+    }
 	  $window.$('#editReuniao').modal();
 	  self.edicao = reuniao;
 	};
