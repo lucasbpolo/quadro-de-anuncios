@@ -26,21 +26,22 @@
         <p class="leitor"><span class="bold-text">Leitor:</span> <span class="italic-text">{{reuniao.estudo_biblico.leitor}}</span></p>
       </div>
 
-      <div class="recapitulacao" ng-show="reuniao.escola_do_ministerio.recapitulacao">
-        <h3 class="subtitulo titulo-salas">Recapitulação</h3>
-      </div>
-      <div class="escola-do-ministerio" ng-show="!reuniao.escola_do_ministerio.recapitulacao">
+      <div class="escola-do-ministerio">
         <h2 class="subtitulo">Escola do Ministério Teocrático:</h2>
         <p class="leitura"><span class="bold-text">Destaques: </span> <span class="italic-text">{{reuniao.escola_do_ministerio.leitor}}</span> <span class="notas">({{reuniao.escola_do_ministerio.leitura}})</span></p>
+        
+        <div ng-show="reuniao.escola_do_ministerio.recapitulacao">
+          <h3 class="subtitulo titulo-salas">Recapitulação</h3>
+        </div>
 
-        <div>
+        <div ng-show="!reuniao.escola_do_ministerio.recapitulacao">
           <h3 class="subtitulo titulo-salas">Sala A</h3>
           <p class="n1"><span class="bold-text">Nº1:</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_a.n1.aluno}}</span> <span class="notas">({{reuniao.escola_do_ministerio.sala_a.n1.leitura}})</span></p>
           <p class="n2"><span class="bold-text">Nº2:</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_a.n2.aluno}}</span> <span class="notas">ajudante</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_a.n2.ajudante}} </span></p>
           <p class="n3"><span class="bold-text">Nº3:</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_a.n3.aluno}}</span> <span class="notas">ajudante</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_a.n3.ajudante}} </span></p>
         </div>
 
-        <div>
+        <div ng-show="!reuniao.escola_do_ministerio.recapitulacao">
           <h3 class="subtitulo titulo-salas">Sala B</h3>
           <p class="n1"><span class="bold-text">Nº1:</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_b.n1.aluno}}</span> <span class="notas">({{reuniao.escola_do_ministerio.sala_b.n1.leitura}})</span></p>
           <p class="n2"><span class="bold-text">Nº2:</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_b.n2.aluno}}</span> <span class="notas">ajudante</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_b.n2.ajudante}} </span></p>
@@ -108,21 +109,22 @@
               <p class="leitor"><span class="bold-text">Leitor:</span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.estudo_biblico.leitor"/></p>
             </div>
 
-            <div class="recapitulacao" ng-show="quadroDeAnuncios.edicao.escola_do_ministerio.recapitulacao">
-              <h3 class="subtitulo titulo-salas">Recapitulação</h3>
-            </div>
-            <div class="escola-do-ministerio" ng-show="!quadroDeAnuncios.edicao.escola_do_ministerio.recapitulacao">
+            <div class="escola-do-ministerio">
               <h2 class="subtitulo">Escola do Ministério Teocrático:</h2>
               <p class="leitura"><span class="bold-text">Destaques: </span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.escola_do_ministerio.leitor"/> <span class="notas">({{quadroDeAnuncios.edicao.escola_do_ministerio.leitura}})</span></p>
 
-              <div>
+              <div ng-show="quadroDeAnuncios.edicao.escola_do_ministerio.recapitulacao">
+                <h3 class="subtitulo titulo-salas">Recapitulação</h3>
+              </div>
+
+              <div ng-show="!quadroDeAnuncios.edicao.escola_do_ministerio.recapitulacao">
                 <h3 class="subtitulo titulo-salas">Sala A</h3>
                 <p class="n1"><span class="bold-text">Nº1:</span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.escola_do_ministerio.sala_a.n1.aluno"/> <span class="notas">({{quadroDeAnuncios.edicao.escola_do_ministerio.sala_a.n1.leitura}})</span></p>
                 <p class="n2"><span class="bold-text">Nº2:</span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.escola_do_ministerio.sala_a.n2.aluno"/> <span class="notas">ajudante</span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.escola_do_ministerio.sala_a.n2.ajudante"/></p>
                 <p class="n3"><span class="bold-text">Nº3:</span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.escola_do_ministerio.sala_a.n3.aluno"/> <span class="notas">ajudante</span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.escola_do_ministerio.sala_a.n3.ajudante"/></p>
               </div>
 
-              <div>
+              <div ng-show="!quadroDeAnuncios.edicao.escola_do_ministerio.recapitulacao">
                 <h3 class="subtitulo titulo-salas">Sala B</h3>
                 <p class="n1"><span class="bold-text">Nº1:</span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.escola_do_ministerio.sala_b.n1.aluno"/> <span class="notas">({{quadroDeAnuncios.edicao.escola_do_ministerio.sala_b.n1.leitura}})</span></p>
                 <p class="n2"><span class="bold-text">Nº2:</span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.escola_do_ministerio.sala_b.n2.aluno"/> <span class="notas">ajudante</span> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.escola_do_ministerio.sala_b.n2.ajudante"/></p>
