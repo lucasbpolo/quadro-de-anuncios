@@ -1,0 +1,299 @@
+[
+
+  {
+    "semana_especial": false,
+    "mes": "Outubro",
+    "dia": "5",
+    "inicio":{
+      "cantico": "13",
+      "oracao": ""
+    },
+    "estudo_biblico": {
+      "estudo": "cl cap. 31 §§ 13-20",
+      "dirigente": "",
+      "leitor": ""
+    },
+    "escola_do_ministerio":{
+      "recapitulacao": false,
+      "leitura": "1 Crônicas 1-4",
+      "leitor": "",
+      "sala_a":{
+        "n1": {
+          "leitura": "1 Crônicas 1: 28-42",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "A atitude permissiva desonra a Deus",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "*A quem se aplica o termo \"anticristo\" ",
+          "aluno": "",
+          "ajudante": ""
+        }
+      },
+      "sala_b":{
+        "n1": {
+          "leitura": "1 Crônicas 1: 28-42",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "A atitude permissiva desonra a Deus",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "*A quem se aplica o termo \"anticristo\" ",
+          "aluno": "",
+          "ajudante": ""
+        }
+      }
+    },
+    "reuniao_de_servico":{
+      "cantico": "82",
+      "partes": [
+        {
+          "tempo": "10 min",
+          "titulo": "Ofereça as revistas em Outubro.",
+          "orador": ""
+        },
+        {
+          "tempo": "10 min",
+          "titulo": "Necessidades Locais.",
+          "orador": ""
+        },
+        {
+          "tempo": "10 min",
+          "titulo": "Como nos saímos?",
+          "orador": ""
+        }
+      ]
+    },
+    "fim":{
+      "cantico": "98",
+      "oracao": ""
+    }
+  },
+
+
+
+  {
+    "semana_especial": false,
+    "mes": "Outubro",
+    "dia": "12",
+    "inicio":{
+      "cantico": "135",
+      "oracao": ""
+    },
+    "estudo_biblico": {
+      "estudo": "cl cap. 31 §§ 21-23, quadro na p. 319",
+      "dirigente": "",
+      "leitor": ""
+    },
+    "escola_do_ministerio":{
+      "recapitulacao": false,
+      "leitura": "1 Crônicas 5-7",
+      "leitor": "",
+      "sala_a":{
+        "n1": {
+          "leitura": "1 Crônicas 6: 48-60",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "*O que é apostasia?",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "Amigos Verdadeiros falam a verdade",
+          "aluno": "",
+          "ajudante": ""
+        }
+      },
+      "sala_b":{
+        "n1": {
+          "leitura": "1 Crônicas 6: 48-60",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "*O que é apostasia?",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "Amigos Verdadeiros falam a verdade",
+          "aluno": "",
+          "ajudante": ""
+        }
+      }
+    },
+    "reuniao_de_servico":{
+      "cantico": "117",
+      "partes": [
+        {
+          "tempo": "10 min",
+          "titulo": "Fique 'arraigado' e 'estabelecido na fé'. ",
+          "orador": ""
+        },
+        {
+          "tempo": "20 min",
+          "titulo": "Como ser um publicador melhor - Ensine a seus estudantes da Bíblia como estudar.",
+          "orador": ""
+        }
+      ]
+    },
+    "fim":{
+      "cantico": "116",
+      "oracao": ""
+    }
+  },
+
+
+
+  {
+    "semana_especial": false,
+    "mes": "Outubro",
+    "dia": "19",
+    "inicio":{
+      "cantico": "54",
+      "oracao": ""
+    },
+    "estudo_biblico": {
+      "estudo": "ia pp. 2-7",
+      "dirigente": "",
+      "leitor": ""
+    },
+    "escola_do_ministerio":{
+      "recapitulacao": false,
+      "leitura": "1 Crônicas 8-11",
+      "leitor": "",
+      "sala_a":{
+        "n1": {
+          "leitura": "1 Crônicas 11: 15-25",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "Nunca subestime o poder da oração",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "*Quem é o arcanjo?",
+          "aluno": "",
+          "ajudante": ""
+        }
+      },
+      "sala_b":{
+        "n1": {
+          "leitura": "1 Crônicas 11: 15-25",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "Nunca subestime o poder da oração",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "*Quem é o arcanjo?",
+          "aluno": "",
+          "ajudante": ""
+        }
+      }
+    },
+    "reuniao_de_servico":{
+      "cantico": "83",
+      "partes": [
+        {
+          "tempo": "20 min",
+          "titulo": "Toque o coração das pessoas.",
+          "orador": ""
+        },
+        {
+          "tempo": "10 min",
+          "titulo": "Seja um bom exemplo, não importa a idade",
+          "orador": ""
+        }
+      ]
+    },
+    "fim":{
+      "cantico": "90",
+      "oracao": ""
+    }
+  },
+
+
+
+
+  {
+    "semana_especial": false,
+    "mes": "Outubro",
+    "dia": "26",
+    "inicio":{
+      "cantico": "15",
+      "oracao": ""
+    },
+    "estudo_biblico": {
+      "estudo": "ia cap. 1 §§ 1-13",
+      "dirigente": "",
+      "leitor": ""
+    },
+    "escola_do_ministerio":{
+      "recapitulacao": true,
+      "leitura": "1 Crônicas 12-15",
+      "leitor": "",
+      "sala_a":{
+        "n1": {
+          "leitura": "",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "",
+          "aluno": "",
+          "ajudante": ""
+        }
+      },
+      "sala_b":{
+        "n1": {
+          "leitura": "",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "",
+          "aluno": "",
+          "ajudante": ""
+        }
+      }
+    },
+    "reuniao_de_servico":{
+      "cantico": "120",
+      "partes": [
+        {
+          "tempo": "10 min",
+          "titulo": "Oferta de publicaçações para Novembro.",
+          "orador": ""
+        },
+        {
+          "tempo": "20 min",
+          "titulo": "Você deixa a Palavra de Deus influenciar o seu dia a dia?",
+          "orador": ""
+        }
+      ]
+    },
+    "fim":{
+      "cantico": "113",
+      "oracao": ""
+    }
+  }
+
+]

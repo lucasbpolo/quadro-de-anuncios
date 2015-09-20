@@ -36,7 +36,7 @@ angular.module('boardApp')
 
 
 
-    self.mesAtivo = 'Setembro';
+    self.mesAtivo = 'Outubro';
 
     self.porMeses = function(item){
       return item.mes === self.mesAtivo;

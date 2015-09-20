@@ -2,7 +2,6 @@
   <div class="controles">
     <label>Mês:</label>
     <select ng-model="quadroDeAnuncios.mesAtivo">
-      <option value="Setembro">Setembro</option>
       <option value="Outubro">Outubro</option>
     </select>
   </div>
@@ -37,15 +36,19 @@
         <div ng-show="!reuniao.escola_do_ministerio.recapitulacao">
           <h3 class="subtitulo titulo-salas">Sala A</h3>
           <p class="n1"><span class="bold-text">Nº1:</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_a.n1.aluno}}</span> <span class="notas">({{reuniao.escola_do_ministerio.sala_a.n1.leitura}})</span></p>
-          <p class="n2"><span class="bold-text">Nº2:</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_a.n2.aluno}}</span> <span class="notas">ajudante</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_a.n2.ajudante}} </span></p>
-          <p class="n3"><span class="bold-text">Nº3:</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_a.n3.aluno}}</span> <span class="notas">ajudante</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_a.n3.ajudante}} </span></p>
+
+          <p class="n2"><span class="bold-text">Nº2:</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_a.n2.aluno}}</span> <span class="notas" ng-if="reuniao.escola_do_ministerio.sala_a.n2.aluno">ajudante</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_a.n2.ajudante}}</span> <span class="notas tema-parte">({{reuniao.escola_do_ministerio.sala_a.n2.tema}})</span></p>
+
+          <p class="n3"><span class="bold-text">Nº3:</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_a.n3.aluno}}</span> <span class="notas" ng-if="reuniao.escola_do_ministerio.sala_a.n3.ajudante">ajudante</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_a.n3.ajudante}}</span> <span class="notas tema-parte">({{reuniao.escola_do_ministerio.sala_a.n3.tema}})</span></p>
         </div>
 
         <div ng-show="!reuniao.escola_do_ministerio.recapitulacao">
           <h3 class="subtitulo titulo-salas">Sala B</h3>
           <p class="n1"><span class="bold-text">Nº1:</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_b.n1.aluno}}</span> <span class="notas">({{reuniao.escola_do_ministerio.sala_b.n1.leitura}})</span></p>
-          <p class="n2"><span class="bold-text">Nº2:</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_b.n2.aluno}}</span> <span class="notas">ajudante</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_b.n2.ajudante}} </span></p>
-          <p class="n3"><span class="bold-text">Nº3:</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_b.n3.aluno}}</span> <span class="notas">ajudante</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_b.n3.ajudante}} </span></p>
+
+          <p class="n2"><span class="bold-text">Nº2:</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_b.n2.aluno}}</span> <span class="notas" ng-if="reuniao.escola_do_ministerio.sala_b.n2.ajudante">ajudante</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_b.n2.ajudante}}</span> <span class="notas tema-parte">({{reuniao.escola_do_ministerio.sala_b.n2.tema}})</span></p>
+
+          <p class="n3"><span class="bold-text">Nº3:</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_b.n3.aluno}}</span> <span class="notas" ng-if="reuniao.escola_do_ministerio.sala_b.n3.ajudante">ajudante</span> <span class="italic-text">{{reuniao.escola_do_ministerio.sala_b.n3.ajudante}}</span> <span class="notas tema-parte">({{reuniao.escola_do_ministerio.sala_b.n3.tema}})</span></p>
         </div>
 
       </div>
@@ -54,19 +57,19 @@
         <h2 class="subtitulo">Reunião de Serviço:</h2>
         <p>Cantico: {{reuniao.reuniao_de_servico.cantico}}</p>
         
-        <div>
-          <p class="nome-parte"> <span class="bold-text">{{reuniao.reuniao_de_servico.partes[0].titulo}}</span> <!--<span class="notas">{{reuniao.reuniao_de_servico.partes[0].tempo}}</span> --></p>
-          <p> <span class="italic-text">{{reuniao.reuniao_de_servico.partes[0].orador}}</span></p>
+        <div ng-if="reuniao.reuniao_de_servico.partes[0].titulo">
+          <p class="nome-parte"> <span class="bold-text">{{reuniao.reuniao_de_servico.partes[0].titulo}}</span> <span class="notas">{{reuniao.reuniao_de_servico.partes[0].tempo}}</span> </p>
+          <p> <span class="italic-text">Orador: {{reuniao.reuniao_de_servico.partes[0].orador}}</span></p>
         </div>
 
-        <div>
-          <p class="nome-parte"> <span class="bold-text">{{reuniao.reuniao_de_servico.partes[1].titulo}}</span> <!--<span class="notas">{{reuniao.reuniao_de_servico.partes[1].tempo}}</span> --></p>
-          <p> <span class="italic-text">{{reuniao.reuniao_de_servico.partes[1].orador}}</span></p>
+        <div ng-if="reuniao.reuniao_de_servico.partes[1].titulo">
+          <p class="nome-parte"> <span class="bold-text">{{reuniao.reuniao_de_servico.partes[1].titulo}}</span> <span class="notas">{{reuniao.reuniao_de_servico.partes[1].tempo}}</span> </p>
+          <p> <span class="italic-text">Orador: {{reuniao.reuniao_de_servico.partes[1].orador}}</span></p>
         </div>
 
-        <div>
-          <p class="nome-parte"> <span class="bold-text">{{reuniao.reuniao_de_servico.partes[2].titulo}}</span> <!--<span class="notas">{{reuniao.reuniao_de_servico.partes[2].tempo}}</span> --></p>
-          <p> <span class="italic-text">{{reuniao.reuniao_de_servico.partes[2].orador}}</span></p>
+        <div ng-if="reuniao.reuniao_de_servico.partes[2].titulo">
+          <p class="nome-parte"> <span class="bold-text">{{reuniao.reuniao_de_servico.partes[2].titulo}}</span> <span class="notas">{{reuniao.reuniao_de_servico.partes[2].tempo}}</span> </p>
+          <p> <span class="italic-text">Orador: {{reuniao.reuniao_de_servico.partes[2].orador}}</span></p>
         </div>
 
       </div>
@@ -138,17 +141,17 @@
               <p>Cantico: {{quadroDeAnuncios.edicao.reuniao_de_servico.cantico}}</p>
               <!-- <div ng-repeat="parte in quadroDeAnuncios.edicao.reuniao_de_servico.partes"> -->
                 <div ng-if="quadroDeAnuncios.edicao.reuniao_de_servico.partes[0].titulo">
-                  <p class="nome-parte"> <span class="bold-text">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[0].titulo}}</span> <!--<span class="notas">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[0].tempo}}</span>--></p>
+                  <p class="nome-parte"> <span class="bold-text">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[0].titulo}}</span> <span class="notas">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[0].tempo}}</span></p>
                   <p> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.reuniao_de_servico.partes[0].orador"/></p>
                 </div>
 
                 <div ng-if="quadroDeAnuncios.edicao.reuniao_de_servico.partes[1].titulo">
-                  <p class="nome-parte"> <span class="bold-text">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[1].titulo}}</span> <!--<span class="notas">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[1].tempo}}</span>--></p>
+                  <p class="nome-parte"> <span class="bold-text">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[1].titulo}}</span> <span class="notas">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[1].tempo}}</span></p>
                   <p> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.reuniao_de_servico.partes[1].orador"/></p>
                 </div>
 
                 <div ng-if="quadroDeAnuncios.edicao.reuniao_de_servico.partes[2].titulo">
-                  <p class="nome-parte"> <span class="bold-text">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[2].titulo}}</span> <!--<span class="notas">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[2].tempo}}</span>--></p>
+                  <p class="nome-parte"> <span class="bold-text">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[2].titulo}}</span> <span class="notas">{{quadroDeAnuncios.edicao.reuniao_de_servico.partes[2].tempo}}</span></p>
                   <p> <input type="text" class="italic-text" ng-model="quadroDeAnuncios.edicao.reuniao_de_servico.partes[2].orador"/></p>
                 </div>
               <!-- </div> -->

@@ -142,7 +142,13 @@ body {
   }
 
   .reuniao-de-quinta .semana.recapitulacao{
-    height: 46.73em;
+    height: 57.75em;
+  }
+  
+  @media print {
+    .reuniao-de-quinta .semana.recapitulacao{
+      height: 46.73em;
+    }
   }
 
   .reuniao-de-quinta .semana.semana-edicao:hover{
@@ -255,8 +261,11 @@ body {
     height: 46.73em;
   }
 
-
-
+@media print {
+  .tema-parte{
+    display: none;
+  }
+}
 
 
 
