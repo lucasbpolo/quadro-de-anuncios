@@ -10,8 +10,19 @@
 angular.module('boardApp')
   .controller('QuadroDeAnunciosCtrl', ['$scope', 'quadroDeAnunciosService','$firebaseArray', '$window', '$timeout', function ($scope, quadroDeAnunciosService, $firebaseArray, $window, $timeout) {
     var self = this;
+    var congregations = {
+      'congregacao-vila-real': 'https://congregacao-vila-real.firebaseio.com',
+      'congregacao-jambeiro': 'https://congregacao-jambeiro.firebaseio.com',
+      'congregacao-vila-cury': 'https://congregacao-vila-cury.firebaseio.com'
+    };
+    var name = location.hostname.split('.appspot')[0];
+    var ref;
 
-	var ref = new $window.Firebase("https://congregacao-jambeiro.firebaseio.com");
+    if(congregations[name]){
+      ref = new $window.Firebase(congregations[name]);
+    }else{
+      ref = new $window.Firebase('https://congregacao-jambeiro.firebaseio.com');
+    }
 
     self.json = $firebaseArray(ref);
 
