@@ -1,3 +1,4 @@
+/* BROWSERS */
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -5,6 +6,8 @@
   padding: 0.2em 0;
 }
 
+
+/* BODY */
 body {
   padding: 0;
   font-size: 14px;
@@ -16,18 +19,31 @@ body {
   }
 }
 
+@media print {
+  body {
+    padding: 0;
+    font-size: 10.1px;
+  }
+}
+
+/* RESET */
 * {
   outline: none;
 }
 
+/* CONTAINER */
 @media print {
-  body {
-    padding: 0;
-    font-size: 8px;
+  html, body{
+    margin: 0;
+  }
+
+  .container {
+      width: auto;
   }
 }
 
-/* Header */
+
+/* HEADER */
 .header {
   border-bottom: 1px solid #e5e5e5;
   margin-bottom: 10px;
@@ -55,7 +71,7 @@ body {
   }
 
 
-  
+/* MENU */
 @media (min-width: 768px){
   .navbar-collapse{
     padding: 0;
@@ -70,7 +86,7 @@ body {
   }
 }
 
-/* Font Style */
+/* GLOBAL STYLES */
 .italic-text{
   font-style: italic;
 }
@@ -79,7 +95,7 @@ body {
   font-weight: bold;
 }
 
-/* Quadro de Anuncios */
+/* QUADRO DE ANUNCIOS */
 .reuniao-de-quinta .controles{
   padding: 20px;
 }
@@ -98,6 +114,12 @@ body {
   width: 50%;
   border: solid 1px #000;
   padding-bottom: 2em;
+}
+
+@media print {
+  .reuniao-de-quinta .semana{
+    padding-bottom: 1em;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -120,14 +142,14 @@ body {
   }
 
   .reuniao-de-quinta .semana.recapitulacao{
-    height: 57.7em;
+    height: 46.73em;
   }
 
   .reuniao-de-quinta .semana.semana-edicao:hover{
     background-color: inherit;
   }
 
-@media screen and (min-width: 1024px) {
+@media print {
   .reuniao-de-quinta .semana:nth-child(2){
     border-right: none;
     border-bottom: none;
@@ -167,7 +189,7 @@ body {
 
   .semana .titulo{
     font-size: 2em;
-    color: #0088EE;
+    color: #0088EE !important;
     text-align: center;
   }
 
@@ -178,9 +200,43 @@ body {
 
   .semana .titulo-salas{
     text-align: center;
-    background-color: #9FC5E8;
+    background-color: #9FC5E8 !important;
     padding: 5px;
   }
+
+@media print {
+  .reuniao-de-quinta .semana > *{
+    padding: 0 1em;
+  }
+
+  .semana p{
+    margin-bottom: 0.2em;
+  }
+
+  .semana h1{
+    margin-top: 0.4em;
+    margin-bottom: 0.2em;
+  }
+
+  .semana h2{
+    margin-top: 0.4em;
+    margin-bottom: 0.2em;
+  }
+
+  .semana h3{
+    margin-top: 0.4em;
+    margin-bottom: 0.2em;
+  }
+
+  .semana .titulo{
+    font-size: 1.6em;
+  }
+
+  .semana .subtitulo{
+    font-size: 1.3em;
+  }
+
+}
 
   .semana .notas{
     font-size: 0.8em;
@@ -196,7 +252,7 @@ body {
   }
 
   .semana .semana-especial{
-    height: 54.1em;
+    height: 46.73em;
   }
 
 
