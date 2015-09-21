@@ -294,6 +294,327 @@
       "cantico": "113",
       "oracao": ""
     }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "semana_especial": false,
+    "mes": "Novembro",
+    "dia": "2",
+    "inicio":{
+      "cantico": "52",
+      "oracao": ""
+    },
+    "estudo_biblico": {
+      "estudo": "ia cap. 1 §§ 14-27, quadro na p. 16",
+      "dirigente": "",
+      "leitor": ""
+    },
+    "escola_do_ministerio":{
+      "recapitulacao": false,
+      "leitura": "1 Crônicas 16-20",
+      "leitor": "",
+      "sala_a":{
+        "n1": {
+          "leitura": "1 Crônicas 17: 15-27",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "*O que era a arca do pacto?",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "Jeová odeia quem não fala a verdade",
+          "aluno": "",
+          "ajudante": ""
+        }
+      },
+      "sala_b":{
+        "n1": {
+          "leitura": "1 Crônicas 17: 15-27",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "*O que era a arca do pacto?",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "Jeová odeia quem não fala a verdade",
+          "aluno": "",
+          "ajudante": ""
+        }
+      }
+    },
+    "reuniao_de_servico":{
+      "cantico": "91",
+      "partes": [
+        {
+          "tempo": "10 min",
+          "titulo": "Oferta as revistas em Novembro.",
+          "orador": ""
+        },
+        {
+          "tempo": "10 min",
+          "titulo": "Necessidades Locais",
+          "orador": ""
+        },
+        {
+          "tempo": "10 min",
+          "titulo": "Como nos saimos?",
+          "orador": ""
+        }
+      ]
+    },
+    "fim":{
+      "cantico": "140",
+      "oracao": ""
+    }
+  },
+
+
+
+
+  {
+    "semana_especial": false,
+    "mes": "Novembro",
+    "dia": "9",
+    "inicio":{
+      "cantico": "48",
+      "oracao": ""
+    },
+    "estudo_biblico": {
+      "estudo": "ia cap. 2 §§ 1-12",
+      "dirigente": "",
+      "leitor": ""
+    },
+    "escola_do_ministerio":{
+      "recapitulacao": false,
+      "leitura": "1 Crônicas 21-25",
+      "leitor": "",
+      "sala_a":{
+        "n1": {
+          "leitura": "1 Crônicas 23: 1-11",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "Tenha profundo respeito pelos servos de Jeová",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "*O que é realmente o Armagedom",
+          "aluno": "",
+          "ajudante": ""
+        }
+      },
+      "sala_b":{
+        "n1": {
+          "leitura": "1 Crônicas 23: 1-11",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "Tenha profundo respeito pelos servos de Jeová",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "*O que é realmente o Armagedom",
+          "aluno": "",
+          "ajudante": ""
+        }
+      }
+    },
+    "reuniao_de_servico":{
+      "cantico": "98",
+      "partes": [
+        {
+          "tempo": "10 min",
+          "titulo": "\"Eu plantei, Apolo regou, mas Deus fazia crescer\"",
+          "orador": ""
+        },
+        {
+          "tempo": "20 min",
+          "titulo": "\"Como ser um publicaçações melhor - Ofereça o livro Bíblia Ensina\"",
+          "orador": ""
+        }
+      ]
+    },
+    "fim":{
+      "cantico": "111",
+      "oracao": ""
+    }
+  },
+
+
+
+
+  {
+    "semana_especial": false,
+    "mes": "Novembro",
+    "dia": "16",
+    "inicio":{
+      "cantico": "17",
+      "oracao": ""
+    },
+    "estudo_biblico": {
+      "estudo": "ia cap. 2 §§ 13-23, quadro na p.24",
+      "dirigente": "",
+      "leitor": ""
+    },
+    "escola_do_ministerio":{
+      "recapitulacao": false,
+      "leitura": "1 Crônicas 26-29",
+      "leitor": "",
+      "sala_a":{
+        "n1": {
+          "leitura": "1 Crônicas 29: 20-30",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "Qual o significado de \"expiação\"?",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "Tema a Deus e seja integro",
+          "aluno": "",
+          "ajudante": ""
+        }
+      },
+      "sala_b":{
+        "n1": {
+          "leitura": "1 Crônicas 29: 20-30",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "Qual o significado de \"expiação\"?",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "Tema a Deus e seja integro",
+          "aluno": "",
+          "ajudante": ""
+        }
+      }
+    },
+    "reuniao_de_servico":{
+      "cantico": "35",
+      "partes": [
+        {
+          "tempo": "10 min",
+          "titulo": "'Continue regando' o interesse das pessoas",
+          "orador": ""
+        },
+        {
+          "tempo": "20 min",
+          "titulo": "\"Como usar as gravações de áudio\"",
+          "orador": ""
+        }
+      ]
+    },
+    "fim":{
+      "cantico": "108",
+      "oracao": ""
+    }
+  },
+
+
+
+
+  {
+    "semana_especial": false,
+    "mes": "Novembro",
+    "dia": "23",
+    "inicio":{
+      "cantico": "26",
+      "oracao": ""
+    },
+    "estudo_biblico": {
+      "estudo": "ia cap. 3 §§ 1-13, quadro na p.29",
+      "dirigente": "",
+      "leitor": ""
+    },
+    "escola_do_ministerio":{
+      "recapitulacao": true,
+      "leitura": "2 Crônicas 1-5",
+      "leitor": "",
+      "sala_a":{
+        "n1": {
+          "leitura": "2 Crônicas 3: 14-4:6",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "Ande com Jeová",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "Que tipos de batismo existem",
+          "aluno": "",
+          "ajudante": ""
+        }
+      },
+      "sala_b":{
+        "n1": {
+          "leitura": "2 Crônicas 3: 14-4:6",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "Ande com Jeová",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "Que tipos de batismo existem",
+          "aluno": "",
+          "ajudante": ""
+        }
+      }
+    },
+    "reuniao_de_servico":{
+      "cantico": "47",
+      "partes": [
+        {
+          "tempo": "10 min",
+          "titulo": "\"Prepare-se para dirigir seu estudo bíblico\"",
+          "orador": ""
+        },
+        {
+          "tempo": "10 min",
+          "titulo": "Seu bom exemplo pode ajuda-lo a plantar sementes da verdade",
+          "orador": ""
+        },
+        {
+          "tempo": "10 min",
+          "titulo": "\"Aprenda a usar os recursos do livro Bíblia Ensina\"",
+          "orador": ""
+        }
+      ]
+    },
+    "fim":{
+      "cantico": "123",
+      "oracao": ""
+    }
   }
 
 ]

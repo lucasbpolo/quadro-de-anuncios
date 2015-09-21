@@ -1,7 +1,7 @@
 #!/bin/bash
 # DEPLOY
 # Usage:
-#  $ ./deploy.sh
+#  $ ./bin/deploy.sh
 
 grunt
 
