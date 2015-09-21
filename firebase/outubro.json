@@ -615,6 +615,88 @@
       "cantico": "123",
       "oracao": ""
     }
+  },
+
+
+
+
+
+
+
+  {
+    "semana_especial": false,
+    "mes": "Novembro",
+    "dia": "30",
+    "inicio":{
+      "cantico": "94",
+      "oracao": ""
+    },
+    "estudo_biblico": {
+      "estudo": "ia cap. 3 §§ 14-21, quadros na p.30 e 32",
+      "dirigente": "",
+      "leitor": ""
+    },
+    "escola_do_ministerio":{
+      "recapitulacao": false,
+      "leitura": "2 Crônicas 6-9",
+      "leitor": "",
+      "sala_a":{
+        "n1": {
+          "leitura": "2 Crônicas 6: 22-27",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "Será que a conduta desenfreada é um pecado grave?",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "Ore e trabalhe em favor dos seus irmãos",
+          "aluno": "",
+          "ajudante": ""
+        }
+      },
+      "sala_b":{
+        "n1": {
+          "leitura": "2 Crônicas 6: 22-27",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "Será que a conduta desenfreada é um pecado grave?",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "Ore e trabalhe em favor dos seus irmãos",
+          "aluno": "",
+          "ajudante": ""
+        }
+      }
+    },
+    "reuniao_de_servico":{
+      "cantico": "58",
+      "partes": [
+        {
+          "tempo": "10 min",
+          "titulo": "Ofereça as revistas de Dezembro",
+          "orador": ""
+        },
+        {
+          "tempo": "10 min",
+          "titulo": "Necessidades Locais",
+          "orador": ""
+        },
+        {
+          "tempo": "10 min",
+          "titulo": "Como nos saimos?",
+          "orador": ""
+        }
+      ]
+    },
+    "fim":{
+      "cantico": "141",
+      "oracao": ""
+    }
   }
 
 ]
