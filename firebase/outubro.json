@@ -697,6 +697,345 @@
       "cantico": "141",
       "oracao": ""
     }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "semana_especial": false,
+    "mes": "Dezembro",
+    "dia": "7",
+    "inicio":{
+      "cantico": "86",
+      "oracao": ""
+    },
+    "estudo_biblico": {
+      "estudo": "ia cap. 4 §§ 1-15, quadro na p.39",
+      "dirigente": "",
+      "leitor": ""
+    },
+    "escola_do_ministerio":{
+      "recapitulacao": false,
+      "leitura": "2 Crônicas 10-14",
+      "leitor": "",
+      "sala_a":{
+        "n1": {
+          "leitura": "2 Crônicas 13: 13-22",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "Epafrodito - Mostre respeito a homens que são de confiança",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "*Qual o significado de César?",
+          "aluno": "",
+          "ajudante": ""
+        }
+      },
+      "sala_b":{
+        "n1": {
+          "leitura": "2 Crônicas 13: 13-22",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "Epafrodito - Mostre respeito a homens que são de confiança",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "*Qual o significado de César?",
+          "aluno": "",
+          "ajudante": ""
+        }
+      }
+    },
+    "reuniao_de_servico":{
+      "cantico": "85",
+      "partes": [
+        {
+          "tempo": "10 min",
+          "titulo": "Temos de passar por muitas dificuldades para entrar no Reino de Deus",
+          "orador": ""
+        },
+        {
+          "tempo": "10 min",
+          "titulo": "Como você deve responder?",
+          "orador": ""
+        },
+        {
+          "tempo": "10 min",
+          "titulo": "Tome por Modelo os Profetas - Habacuque",
+          "orador": ""
+        }
+      ]
+    },
+    "fim":{
+      "cantico": "74",
+      "oracao": ""
+    }
+  },
+
+
+
+
+
+
+  {
+    "semana_especial": false,
+    "mes": "Dezembro",
+    "dia": "14",
+    "inicio":{
+      "cantico": "50",
+      "oracao": ""
+    },
+    "estudo_biblico": {
+      "estudo": "ia cap. 4 §§ 16-31, quadro na p.41",
+      "dirigente": "",
+      "leitor": ""
+    },
+    "escola_do_ministerio":{
+      "recapitulacao": false,
+      "leitura": "2 Crônicas 15-19",
+      "leitor": "",
+      "sala_a":{
+        "n1": {
+          "leitura": "2 Crônicas 16: 1-9",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "*Onde era a Caldeia e quem eram os caldeus?",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "Esaú - Nossas decisões revelam se damos valor a coisas sagradas",
+          "aluno": "",
+          "ajudante": ""
+        }
+      },
+      "sala_b":{
+        "n1": {
+          "leitura": "2 Crônicas 16: 1-9",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "*Onde era a Caldeia e quem eram os caldeus?",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "Esaú - Nossas decisões revelam se damos valor a coisas sagradas",
+          "aluno": "",
+          "ajudante": ""
+        }
+      }
+    },
+    "reuniao_de_servico":{
+      "cantico": "128",
+      "partes": [
+        {
+          "tempo": "30 min",
+          "titulo": "Ande pela fé, Não pela Vista",
+          "orador": ""
+        }
+      ]
+    },
+    "fim":{
+      "cantico": "133",
+      "oracao": ""
+    }
+  },
+
+
+
+
+
+
+  {
+    "semana_especial": false,
+    "mes": "Dezembro",
+    "dia": "21",
+    "inicio":{
+      "cantico": "90",
+      "oracao": ""
+    },
+    "estudo_biblico": {
+      "estudo": "ia cap. 5 §§ 1-13",
+      "dirigente": "",
+      "leitor": ""
+    },
+    "escola_do_ministerio":{
+      "recapitulacao": false,
+      "leitura": "2 Crônicas 20-24",
+      "leitor": "",
+      "sala_a":{
+        "n1": {
+          "leitura": "2 Crônicas 20: 13-20",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "Ester - Como a beleza verdadeira se manifesta",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "*O que a expressão \"Agente Principal\" significa?",
+          "aluno": "",
+          "ajudante": ""
+        }
+      },
+      "sala_b":{
+        "n1": {
+          "leitura": "2 Crônicas 20: 13-20",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "Ester - Como a beleza verdadeira se manifesta",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "*O que a expressão \"Agente Principal\" significa?",
+          "aluno": "",
+          "ajudante": ""
+        }
+      }
+    },
+    "reuniao_de_servico":{
+      "cantico": "96",
+      "partes": [
+        {
+          "tempo": "5 min",
+          "titulo": "Perguntas Respondidas",
+          "orador": ""
+        },
+        {
+          "tempo": "10 min",
+          "titulo": "Mostre gratidão pela generosidade de Jeová.",
+          "orador": ""
+        },
+        {
+          "tempo": "15 min",
+          "titulo": "Cautelosos como as serpentes, mas inocentes como as pombas",
+          "orador": ""
+        }
+      ]
+    },
+    "fim":{
+      "cantico": "137",
+      "oracao": ""
+    }
+  },
+
+
+
+
+
+
+
+  {
+    "semana_especial": false,
+    "mes": "Dezembro",
+    "dia": "28",
+    "inicio":{
+      "cantico": "79",
+      "oracao": ""
+    },
+    "estudo_biblico": {
+      "estudo": "ia cap. 5 §§ 14-26, quadro na p.50",
+      "dirigente": "",
+      "leitor": ""
+    },
+    "escola_do_ministerio":{
+      "recapitulacao": true,
+      "leitura": "2 Crônicas 25-28",
+      "leitor": "",
+      "sala_a":{
+        "n1": {
+          "leitura": "2 Crônicas 13: 13-22",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "Epafrodito - Mostre respeito a homens que são de confiança",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "*Qual o significado de César?",
+          "aluno": "",
+          "ajudante": ""
+        }
+      },
+      "sala_b":{
+        "n1": {
+          "leitura": "2 Crônicas 13: 13-22",
+          "aluno": ""
+        },
+        "n2": {
+          "tema": "Epafrodito - Mostre respeito a homens que são de confiança",
+          "aluno": "",
+          "ajudante": ""
+        },
+        "n3": {
+          "tema": "*Qual o significado de César?",
+          "aluno": "",
+          "ajudante": ""
+        }
+      }
+    },
+    "reuniao_de_servico":{
+      "cantico": "122",
+      "partes": [
+        {
+          "tempo": "15 min",
+          "titulo": "Ore por seus irmãos.",
+          "orador": ""
+        },
+        {
+          "tempo": "15 min",
+          "titulo": "Necessidades Locais",
+          "orador": ""
+        }
+      ]
+    },
+    "fim":{
+      "cantico": "124",
+      "oracao": ""
+    }
   }
+
+
+
+
 
 ]
